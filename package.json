@@ -52,6 +52,7 @@
 		"build-lib": "tsup --config tsup.config.ts",
 		"build:utils": "pnpm run --filter @ikun-ui/utils build",
 		"build:components": "node scripts/build.js",
+		"build:components-types-dts": "node scripts/build-types-dts.js",
 		"build#docs": "pnpm run --filter @ikun-ui/docs docs:build",
 		"preview:docs": "pnpm run --filter @ikun-ui/docs docs:preview",
 		"test": "pnpm run test:unit && pnpm run test:e2e",
